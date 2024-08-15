@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color:#ecf0f1;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1abc9c;
+}
+
+.home img {
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
+}
+
+.about, .skills, .projects, .social, .contact {
+    padding: 20px;
+    background-color:#cae433;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.skills {
+    padding: 20px;
+    background-color:#11526a;
+    color:#fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills .skill {
+    margin-bottom: 20px;
+}
+
+.skills h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #4CAF50; /* Green color for the progress */
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.skills p {
+    margin-top: 5px;
+    font-size: 1em;
+    text-align: right;
+}
+
+.skills ul, .social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .social li {
+    margin-bottom: 10px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.projects .project img {
+    width: 70%;
+    max-width: 100px; /* Set a maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for a floating effect */
+    margin-bottom: 15px; /* Add some space below the images */
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.projects .project img:hover {
+    transform: scale(1.05); /* Slightly zoom the image on hover */
+}
+
+.icon-html::before {
+    content: url('html-icon.png');
+}
+
+.icon-css::before {
+    content: url('css-icon.png');
+}
+
+.icon-c::before {
+    content: url('c-icon.png');
+}
+
+.icon-java::before {
+    content: url('java-icon.png');
+}
+
+.icon-python::before {
+    content: url('python-icon.png');
+}
+
+.icon-algorithm::before {
+    content: url('algorithm-icon.png');
+}
+
+.icon-instagram::before {
+    content: url('instagram-icon.png');
+}
+
+.icon-twitter::before {
+    content: url('twitter-icon.png');
+}
+
+.icon-linkedin::before {
+    content: url('linkedin-icon.png');
+}
+
+.icon-facebook::before {
+    content: url('facebook-icon.png');
+}
+
+.icon-github::before {
+    content: url('github-icon.png');
+}
+
+.icon-whatsapp::before {
+    content: url('whatsapp-icon.png');
+}
+
+.icon-email::before {
+    content: url('email-icon.png');
+}
+
+.contact .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact .social-media a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.contact .social-media a:hover {
+    background-color: #e0e0e0;
+    color:#2c3e50;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact .social-media i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+
+}
